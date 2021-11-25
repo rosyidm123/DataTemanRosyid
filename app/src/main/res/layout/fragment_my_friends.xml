@@ -6,10 +6,17 @@
 
     <TextView
         android:id="@+id/fragment_my_friends"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/_teman"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp" />
-
+        android:layout_marginLeft="16dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_listmyFriends"/>
 </LinearLayout>
